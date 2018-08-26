@@ -1,4 +1,4 @@
-/* Base Styles */
+/* Base CSS Styles */
 
 * {
 	box-sizing: border-box;
@@ -19,26 +19,17 @@ body {
 h1 {
 	font-family: Montserrat, Arial, sans-serif;
   font-size: 2.5em;
-  font-weight: normal;
+  font-weight: initial;
 	color: #c3512f;
 	text-align: center;
   margin-bottom: 15px;
 }
 
 p {
-	padding: 10px;
-	margin: 0;
+	padding: 15px;
+  margin-bottom: 15px;
   font-family: Montserrat, Arial, sans-serif;
   font-weight: initial;
-}
-
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
 }
 
 section {
@@ -50,47 +41,56 @@ section {
 	overflow: auto;
 }
 
+.menu {
+  border: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #chicken {
 	border: 1px solid #000;
   background-color: #BF1A30;
+  width: 50%;
+  margin-left: 50%;
   color: #fff;
-  width: 30%;
-  margin-left: 70%;
 	text-align: center;
 	font-family: Montserrat, Arial, sans-serif;
 	font-weight: initial;
 	font-size: 100%;
+  padding: 5px;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding: 5px;
 }
 
 #beef {
 	border: 1px solid #000;
+  width: 50%;
+  margin-left: 50%;
   background-color: #C84031;
-  width: 30%;
-  margin-left: 70%;
 	text-align: center;
 	font-family: Montserrat, Arial, sans-serif;
   font-weight: initial;
 	font-size: 100%;
+  padding: 5px;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding: 5px;
 }
 
 #fish {
 	border: 1px solid #000;
+  width: 50%;
+  margin-left: 50%;
   background-color: #D16632;
-  width: 30%;
-  margin-left: 70%;
 	text-align: center;
 	font-family: Montserrat, Arial, sans-serif;
   font-weight: initial;
 	font-size: 100%;
+  padding: 5px;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding: 5px;
 }
 
 /* Desktop */
@@ -186,7 +186,7 @@ section {
 
 /* Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
  	float: left;
   }
