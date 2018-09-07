@@ -1,5 +1,3 @@
-// Immediatly Invoked Function Expression
-// IIFE
 (function (window) {
 	var helloSpeaker = {};
 	var speakWord = "Hello";
